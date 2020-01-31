@@ -519,10 +519,9 @@ Activities assoiated with the TSS.
                             </Tests>   
                         </aactivity>
                     </f-element>
-		    <audit-event>
-                        <table known="mandatory"/>
-			<description>None.</description>
-                        <add-info>None.</add-info>
+		    <audit-event type="normal" table="turtle">
+			<audit-event-descr>Crossing road.</audit-event-descr>
+                        <audit-event-info>Success or Failure of crossing.</audit-event-info>
 		    </audit-event>
                 </f-component>
                 

@@ -5,9 +5,8 @@ dist: xenial
 # whitelist of branches to build
 branches:
   only:
-#    - master
-  - worksheet
-
+  - master
+  
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -qq make python3-bs4 xsltproc

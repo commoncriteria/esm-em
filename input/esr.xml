@@ -1,29 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="../transforms/esr2html.xsl"?>
 
-<ESR xmlns="http://common-criteria.rhcloud.com/ns/esr" name="Operating System Fundamentals">
+<ESR xmlns="http://common-criteria.rhcloud.com/ns/esr" name="Enterprise Security Management Fundamentals">
   
 	<intro>
-		<esrtitle>Some PP Name</esrtitle>
-		<maintainer>NIAP and CESG</maintainer>
-		<identifier>42</identifier>
-		<version>1.0</version>
+		<esrtitle>Enterprise Security Management (ESM) Security Requirements</esrtitle>
+		<maintainer>NIAP</maintainer>
+		<identifier>##</identifier>
+		<version>0.1</version>
 		<status>draft</status>
-		<issuedate>19 March 2015</issuedate>
+		<issuedate>14 October 2021</issuedate>
 		<approver/>
 		<supercedes/>
 	</intro>
 
 	<section title="Background and Purpose" id="purpose">
-		This section sets the context for not only the ESR, but what is 
-		expected of the resulting Protection Profile (PP). The intent is 
-		that the remaining sections provide succinct statements that 
-		highlight the relevant aspects to be addressed by the Technical 
-		Community (TC) constructing the PP. Here, the authors provide a 
-		narrative that introduces the reader to the problem being solved, 
-		and presents key aspects that support or guide the TC, and may
-		elaborate on subtleties not apparent in the “bulleted” high level
-		statements.
+		This document describes a core set of security requirements 
+		for ESM systems. These requirements cover basic security behavior 
+		for ESM systems. Evaluation against the resulting Protection Profile 
+		ensures that this fundamental set of requirements is met. These fundamental 
+		requirements must be extended to adequately cover the functionality of many 
+		types of ESM systems.
+		<h:br />
+		<h:b>Note: </h:b><h:i>This is not a declaration that all ESM systems should be evaluated 
+		through the Common Criteria. Although it depends on the national market, Common Criteria 
+		generally focuses on providing assurance for products which provide security 
+		functionality. Many ESM systems without security functionality now receive some 
+		type of evaluation (often called vetting). This occurs because ESM systems without 
+		security functionality, when flawed, have security consequences. This document is 
+		offered as a reference for those activities, in addition to its role in the Common Criteria. 
+		The goal is to establish a consistent set of expectations for all ESM  system developers, 
+		independent of the evaluation methodology.</h:i>
+		<h:br />
+		The vast majority of ESM systems should satisfy this core set of requirements, yet a very 
+		small set of extremely specialized systems may not do so. The requirements for such exceptional 
+		systems may be specified in Protection Profiles which do not extend the requirements described here.
+		<h:br />
+		ESM systems in the context of this document are systems that .......
 	</section>
 	<section title="Use Cases" id="usecases">
 	  This section is intended to provide the initial scope/bound of the 

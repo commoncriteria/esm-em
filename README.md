@@ -1,6 +1,7 @@
 Protection Profile Module for Enterprise Management (EM)
 ===============
 [![Builds](https://github.com/commoncriteria/esm-em/workflows/Build/badge.svg)](https://github.com/commoncriteria/esm-em/actions/workflows/build.yml)
+[![QuickBuild](https://github.com/commoncriteria/esm-em/workflows/QuickBuild/badge.svg)](https://commoncriteria.github.io/esm-em/esm-em-release.html)
 [![Validates](https://github.com/commoncriteria/esm-em/workflows/Validate/badge.svg)](https://github.com/commoncriteria/esm-em/actions/workflows/validate.yml)
 [![SanityChecks](https://github.com/commoncriteria/esm-em/workflows/SanityChecks/badge.svg)](https://github.com/commoncriteria/esm-em/blob/gh-pages/SanityChecksOutput.md)
 [![GitHub issues Open](https://img.shields.io/github/issues/commoncriteria/pp-template.svg?maxAge=2592000)](https://github.com/commoncriteria/esm-em/issues) 

@@ -1,8 +1,8 @@
 Protection Profile Module for Enterprise Management (EM)
 ===============
-
 ![Builds](https://github.com/commoncriteria/esm-em/workflows/Build/badge.svg)
 ![Validates](https://github.com/commoncriteria/esm-em/workflows/Validate/badge.svg)
+[![SanityChecks](https://github.com/commoncriteria/esm-em/workflows/SanityChecks/badge.svg)](https://github.com/commoncriteria/esm-em/blob/gh-pages/SanityChecksOutput.md)
 [![GitHub issues Open](https://img.shields.io/github/issues/commoncriteria/pp-template.svg?maxAge=2592000)](https://github.com/commoncriteria/esm-em/issues) 
 ![license](https://img.shields.io/badge/license-Unlicensed-blue.svg)
 

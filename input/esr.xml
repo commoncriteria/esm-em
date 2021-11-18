@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="../transforms/esr2html.xsl"?>
 
-<ESR xmlns="http://common-criteria.rhcloud.com/ns/esr" name="Enterprise Management Fundamentals">
-  
+<ESR xmlns="http://common-criteria.rhcloud.com/ns/esr" name="Enterprise Management Fundamentals"
+  xmlns:h="http://www.w3.org/1999/xhtml" >
 	<intro>
 		<esrtitle>Enterprise Management Security Requirements</esrtitle>
 		<maintainer>NIAP</maintainer>

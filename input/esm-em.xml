@@ -2,17 +2,17 @@
 <?xml-stylesheet type="text/xsl" href="../transforms/pp2html.xsl"?>
 
 <PP xmlns="https://niap-ccevs.org/cc/v1"
-    xmlns:sec="https://niap-ccevs.org/cc/v1/section" name="Protection Profile QQQQ"
+    xmlns:sec="https://niap-ccevs.org/cc/v1/section" name="Protection Profile Enterprise Management"
     xmlns:h="http://www.w3.org/1999/xhtml" boilerplate='yes'>
 
   <!-- <inline-comment color='green'> Hello World QQQQ </inline-comment> -->
   <!-- <inline-comment color='blue' linebreak='yes'> Hello World QQQQ </inline-comment> -->
   <PPReference>
     <ReferenceTable>
-      <PPTitle>Protection Profile for QQQQ</PPTitle>
-      <PPVersion>1.0</PPVersion>
+      <PPTitle>Protection Profile for Enterprise Management</PPTitle>
+      <PPVersion>#.#</PPVersion>
       <PPAuthor>National Information Assurance Partnership</PPAuthor>
-      <PPPubDate>2015-08-14</PPPubDate>
+      <PPPubDate>2022-##-##</PPPubDate>
       <Keywords>QQQQ</Keywords>
     </ReferenceTable>
   </PPReference>
@@ -20,7 +20,7 @@
   <RevisionHistory>
     <entry>
       <version>Round 1</version>
-      <date>2015-04-23</date>
+      <date>2022-##-##</date>
       <subject>First draft of version 1.0 for comment</subject>
     </entry>
   </RevisionHistory>
@@ -28,7 +28,7 @@
   <RevisionHistory>
     <entry>
       <version>1.0</version>
-      <date>2015-08-14</date>
+      <date>2022-##-##</date>
       <subject>Release - first version released</subject>
     </entry>
   </RevisionHistory>
@@ -38,7 +38,7 @@
 
       
       The scope of this Protection Profile (PP) is to
-      describe the security functionality of QQQQ products in terms of <xref g='CC'/>
+      describe the security functionality of Enterprise Management products in terms of <xref g='CC'/>
       and to define functional and assurance requirements for such products.
       <choice>An operating system is software that manages computer hardware and software
       resources, and provides common services for application programs. The hardware

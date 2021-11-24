@@ -1,11 +1,11 @@
 Protection Profile Module for Enterprise Management (EM)
 ===============
-[![Builds](https://github.com/commoncriteria/esm-em/workflows/Build/badge.svg)](https://github.com/commoncriteria/esm-em/actions/workflows/build.yml)
-[![QuickBuild](https://github.com/commoncriteria/esm-em/workflows/QuickBuild/badge.svg)](https://commoncriteria.github.io/esm-em/esm-em-release.html)
-[![Validates](https://github.com/commoncriteria/esm-em/workflows/Validate/badge.svg)](https://github.com/commoncriteria/esm-em/actions/workflows/validate.yml)
-[![SanityChecks](https://github.com/commoncriteria/esm-em/workflows/SanityChecks/badge.svg)](https://github.com/commoncriteria/esm-em/blob/gh-pages/SanityChecksOutput.md)
-[![GitHub issues Open](https://img.shields.io/github/issues/commoncriteria/pp-template.svg?maxAge=2592000)](https://github.com/commoncriteria/esm-em/issues) 
-![license](https://img.shields.io/badge/license-Unlicensed-blue.svg)
+[![Build](https://github.com/commoncriteria/esm-em/workflows/Build/badge.svg)](https://commoncriteria.github.io/pp/esm-em/esm-em-release.html)
+![Validate](https://github.com/commoncriteria/esm-em/workflows/Validate/badge.svg)
+[![SanityChecks](https://raw.githubusercontent.com/commoncriteria/esm-em/badges/master/warnings-badge.svg)](https://github.com/commoncriteria/esm-em/blob/gh-pages/SanityChecksOutput.md)
+[![SpellCheck](https://raw.githubusercontent.com/commoncriteria/esm-em/badges/master/spell-badge.svg)](https://github.com/commoncriteria/esm-em/blob/gh-pages/SpellCheckReport.txt)
+[![QuickBuild](https://github.com/commoncriteria/esm-em/actions/workflows/quick_build.yml/badge.svg)](https://commoncriteria.github.io/esm-em/esm-em-release.html)
+[![GitHub issues Open](https://img.shields.io/github/issues/commoncriteria/esm-em.svg?maxAge=2592000)](https://github.com/commoncriteria/esm-em/issues) 
 
 This repository hosts the draft version of the Protection Profile Module for Enterprise Management based on the 
 [Essential Security Requirements (ESR)](https://commoncriteria.github.io/pp/esm-em/esm-em-esr.html) for this technology class of 

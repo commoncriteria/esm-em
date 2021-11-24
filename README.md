@@ -2,8 +2,8 @@ Protection Profile Module for Enterprise Management (EM)
 ===============
 [![Build](https://github.com/commoncriteria/esm-em/workflows/Build/badge.svg)](https://commoncriteria.github.io/pp/esm-em/esm-em-release.html)
 [![Validate](https://github.com/commoncriteria/esm-em/workflows/Validate/badge.svg)](https://github.com/commoncriteria/esm-em/actions/workflows/validate.yml)
-[![SanityChecks](https://raw.githubusercontent.com/commoncriteria/esm-em/badges/master/warnings-badge.svg)](https://github.com/commoncriteria/esm-em/blob/gh-pages/SanityChecksOutput.md)
-[![SpellCheck](https://raw.githubusercontent.com/commoncriteria/esm-em/badges/master/spell-badge.svg)](https://github.com/commoncriteria/esm-em/blob/gh-pages/SpellCheckReport.txt)
+[![SanityChecks](https://raw.githubusercontent.com/commoncriteria/esm-em/badges/main/warnings-badge.svg)](https://github.com/commoncriteria/esm-em/blob/gh-pages/SanityChecksOutput.md)
+[![SpellCheck](https://raw.githubusercontent.com/commoncriteria/esm-em/badges/main/spell-badge.svg)](https://github.com/commoncriteria/esm-em/blob/gh-pages/SpellCheckReport.txt)
 [![QuickBuild](https://github.com/commoncriteria/esm-em/actions/workflows/quick_build.yml/badge.svg)](https://commoncriteria.github.io/esm-em/esm-em-release.html)
 [![GitHub issues Open](https://img.shields.io/github/issues/commoncriteria/esm-em.svg?maxAge=2592000)](https://github.com/commoncriteria/esm-em/issues) 
 

@@ -135,7 +135,68 @@
 
 	<section title="Optional Extensions" id="extensions"> 
 		<ul>
-			<li> Working on it... </li>
+			<li> Policy Management 
+				<ul>
+					<li> Exceptions for Active Directory (AD) objects
+						<ul>
+							<li> Assign rules to AD objects </li>
+						</ul>
+					</li>
+				     	<li> Change mode per process
+					     	<ul>
+						     	<li> Report or block an event based on process or category of process </li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li> 	Architecture
+				<ul>
+					<li> 	Resiliency
+						<ul>
+							<li> Failover </li>
+							<li> Loadbalanced </li>
+							<li> Private/Public Cloud Compatible </li>
+							<li> Local only configurations </li>
+						</ul>
+					</li>
+					<li>\	Compliance
+						<ul>
+							<li> Ability to assign separately privileged auditors </li>
+						</ul>
+					</li>
+					<li>	Collaboration
+						<ul>
+							<li> Invite third party or vendor to automatically create rules and import </li>
+							<li> All communication is encrypted and certificate based authentication </li>
+						</ul>
+					</li>
+					<li>	Customization
+						<ul>
+							<li> Allow for custom modules to hook into the architecture based upon client needs </li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>	Vulnerability Assessments
+				<ul>
+					<li> Virtual agents or bots can perform tasks using natural language processing (NLP) </li>
+					<li> Automated ticketing, escalation, resolution </li>
+				</ul>
+			</li>
+			<li>	Reporting Capabilities
+				<ul>
+					<li> Custom notification message </li>
+					<li> Self-Service Portal </li>
+					<li> Dashboard
+						<ul>
+							<li> Display quarantined files that are eligible to be restored to their original location on the endpoint </li>
+							<li> Smart search capabilities to find answers easily and quickly </li>
+							<li> Intelligent analytics enable workflow optimization and automation </li>
+							<li> Metrics can be created from unstructured data and additionally be gathered analyzed efficiently </li>
+						</ul>
+					</li>
+				</ul>
+			</li>
 		</ul>
 	</section>
 

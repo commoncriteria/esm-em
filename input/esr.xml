@@ -67,7 +67,7 @@
 	  	This is where the authors present an initial set of English requirements that specify security functionality, rather 
 		than design and/or implementation characteristics. These requirements will provide the foundation for which the 
 		detailed set of requirements is derived. It is important that the requirements captured here make an attempt to 
-		fully address the categories (e.g., access control, identification & authentication, management capabilities, roles 
+		fully address the categories (e.g., access control, identification, authentication, management capabilities, roles 
 		of administration, secure communications, and audit). That’s not to say the requirements are fully specified or 
 		detailed enough to simply translate to Common Criteria security functional requirements. The goal is that there 
 		is enough information contained here, as well as the other sections of this document, to provide the TC enough 

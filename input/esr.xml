@@ -4,12 +4,12 @@
 <ESR xmlns="http://common-criteria.rhcloud.com/ns/esr" name="Enterprise Management Fundamentals"
   xmlns:h="http://www.w3.org/1999/xhtml" >
   <intro>
-    <esrtitle>Enterprise Management Security Requirements</esrtitle>
-    <maintainer>NIAP</maintainer>
+    <esrtitle>Enterprise Security Management (ESM) - Enterprise Management (EM)</esrtitle>
+    <maintainer>National Information Assurance Partnership (NIAP)</maintainer>
     <identifier>00x</identifier>
     <version>00x</version>
     <status>draft</status>
-    <issuedate></issuedate>
+    </issuedate>
     <approver/>
     <supersedes/>
   </intro>
@@ -59,7 +59,6 @@
           <li> The network across which the application engages in communication, both actively and passively. 
             Including potentially IOT devices and BYOD. </li>
           <li> The platform on which the application is installed, though as an unprivileged subject. </li>
-          <li> The cloud environment on which the application is installed, though as an unprivileged subject. </li>
           <li> The endpoint (host agent) by planting crafted malicious artifacts on the Endpoint platform to be consumed by the ESM System. </li></ul></li>
       <li> An attacker has an arbitrary amount of time to analyze the behavior of the application, its interaction with its host device or platform, 
         and/or the data it transmits over the network. </li></ul>
@@ -157,7 +156,6 @@
             <ul>
               <li> Failover </li>
               <li> Loadbalanced </li>
-              <li> Private/Public Cloud Compatible </li>
               <li> Local only configurations </li>
             </ul>
           </li>

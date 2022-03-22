@@ -9,9 +9,9 @@
     <identifier>00x</identifier>
     <version>00x</version>
     <status>draft</status>
-    </issuedate>
-    <approver/>
-    <supersedes/>
+    <issuedate></issuedate>
+    <approver><approver/>
+    <supersedes><supersedes/>
   </intro>
   
   <section title="Background and Purpose" id="purpose">

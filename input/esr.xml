@@ -10,8 +10,8 @@
     <version>00x</version>
     <status>draft</status>
     <issuedate></issuedate>
-    <approver><approver/>
-    <supersedes><supersedes/>
+    <approver></approver>
+    <supersedes></supersedes>
   </intro>
   
   <section title="Background and Purpose" id="purpose">

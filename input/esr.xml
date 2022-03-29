@@ -7,7 +7,7 @@
     <esrtitle>Enterprise Security Management (ESM) - Enterprise Management (EM)</esrtitle>
     <maintainer>National Information Assurance Partnership (NIAP)</maintainer>
     <identifier>00x</identifier>
-    <version>00x</version>
+    <version>0.1x</version>
     <status>draft</status>
     <issuedate></issuedate>
     <approver></approver>
@@ -15,14 +15,13 @@
   </intro>
   
   <section title="Background and Purpose" id="purpose">
-    This document describes a core set of security requirements for Enterprise Security Management systems. 
-    These requirements cover basic security characteristics and behaviors for an ESM management server or service 
-    hosted in a cloud or on-premises (the ESM system).
+    This document describes a core set of security requirements for Enterprise Security Management systems.  
+    These requirements cover basic security characteristics and behaviors for an ESM management server. 
     <br/>
-    The intent is that the remaining sections provide succinct statements that highlight the relevant aspects to 
-    be addressed by the Technical Community (TC) constructing the PP. Here, the authors provide a narrative that 
-    introduces the reader to the problem being solved, and presents key aspects that support or guide the TC, and 
-    may elaborate on subtleties not apparent in the “bulleted” high level statements.
+    The intent is that the remaining sections provide succinct statements that highlight the relevant aspects 
+    to be addressed by the Technical Community (TC) constructing the PP. Here, the authors provide a narrative 
+    that introduces the reader to the problem being solved, and presents key aspects that support or guide the TC, 
+    and may elaborate on subtleties not apparent in the “bulleted” high level statements.
   </section>
   <section title="Use Cases" id="usecases">
     This section is intended to provide the initial scope/bound of the security problem by providing the reader with 
@@ -32,15 +31,15 @@
     <br/>
     <!--Need to figure out how to format this properly -->
     [USE CASE 1] Detection of Potential Unauthorized Activity
-    The detection of potentially unauthorized activity, software, or users is enabled by the collection of host-based
-    endpoint data to a central ESM where the data is analyzed.
+    The detection of potentially unauthorized activity, software, or users is enabled by the collection of host-based endpoint data 
+    to a central ESM where the data is analyzed.
     <br/>
     [USE CASE 2] Remediation of Malicious Activity
     The ability to initiate remediation commands to attempt a cleanup of detected malicious activity is a key use case of ESM.
     <br/>
     [USE CASE 3] Discovery
-    The capability to effectively browse, query, and export aggregated host-based endpoint data enables a SOC analyst to 
-    discover adversaries in post-compromise scenarios.
+    The capability to effectively browse, query, and export aggregated host-based endpoint data enables a SOC analyst to discover 
+    adversaries in post-compromise scenarios.
   </section>
   
   <section title="Resources to be protected" id="resourcesprotected">

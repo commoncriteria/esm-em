@@ -30,7 +30,7 @@
     the drafting of the Essential Security Requirements (ESR) and for the TC to consider when writing the PP.</em>
     <br/>
     <br/>
-    <em>Agent</em>
+    <b>Agent</b>
     <br/>
     [USE CASE #]<br/>
     <br/>
@@ -38,7 +38,7 @@
     <br/>
     [USE CASE #]<br/>
     <br/>
-    <em>Agentless</em>
+    <b>Agentless</b>
     <br/>
     [USE CASE 1] Detection of Potential Unauthorized Activity<br/>
     The detection of potentially unauthorized activity, software, or users is enabled by the collection of host-based endpoint data 

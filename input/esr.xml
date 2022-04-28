@@ -29,27 +29,28 @@
     should lay the groundwork for the identifying the resources to be protected, and what threats must be considered in 
     the drafting of the Essential Security Requirements (ESR) and for the TC to consider when writing the PP.</em>
     <br/>
-    <br/>
     <b>Agent</b>
     <br/>
     [USE CASE #]<br/>
     <br/>
     [USE CASE #]<br/>
     <br/>
-    [USE CASE #]<br/>
+    [USE CASE 3] Discovery<br/>
+    The capability to effectively browse, query, and export aggregated host-based endpoint data through a management dashboard query interface to enable 
+    a SOC analyst to discover adversaries in post-compromise scenarios.
     <br/>
     <b>Agentless</b>
     <br/>
     [USE CASE 1] Detection of Potential Unauthorized Activity<br/>
-    The detection of potentially unauthorized activity, software, or users is enabled by the collection of host-based endpoint data 
-    to a central ESM where the data is analyzed.
+    The detection of potentially unauthorized activity, software, or users is enabled by remote collection of host-based endpoint data 
+    by the management server.
     <br/>
     [USE CASE 2] Remediation of Malicious Activity<br/>
-    The ability to initiate remediation commands to attempt a cleanup of detected malicious activity is a key use case of ESM.
+    The ability to perform remediation activities on the endpoint remotely from the management server to cleanup detected malicious activity.
     <br/>
     [USE CASE 3] Discovery<br/>
-    The capability to effectively browse, query, and export aggregated host-based endpoint data enables a SOC analyst to discover 
-    adversaries in post-compromise scenarios.
+    The capability to effectively browse, query, and export aggregated host-based endpoint data through a management dashboard query interface to enable 
+    a SOC analyst to discover adversaries in post-compromise scenarios.
   </section>
   
   <section title="Resources to be protected" id="resourcesprotected">

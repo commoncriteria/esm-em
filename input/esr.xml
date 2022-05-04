@@ -29,32 +29,57 @@
     should lay the groundwork for the identifying the resources to be protected, and what threats must be considered in 
     the drafting of the Essential Security Requirements (ESR) and for the TC to consider when writing the PP.</em>
     <br/>
+    [USE CASE] <b>Monitoring and Management</b>
+    <br/>
+    [USE CASE 1] Custom Events<br/>
+    The ability to handle custom event management and monitoring across server and workstation endpoints.
+    <br/>
+    [USE CASE 2] Standard Services and Alerts<br/>
+    The ability to monitor multiple system services across endpoints, such as alerting for low disk space, 
+    high memory usage alerts, account creations, accounts being added or removed from groups, services stopping.
+    <br/>
+    [USE CASE 3] Patching and Policies<br/>
+    The ability to deploy patches, security, and business policies to server and workstation endpoints, in addition 
+    to deploying instructions to network configurable infrastructure devices.
+    <br/>
+    [USE CASE 4] Discovery<br/>
+    The capability to effectively browse, query, and export aggregated host-based endpoint data through a management 
+    dashboard query interface, in addition to automatically add newly discovered endpoints to a monitored database.
+    <br/>
+    [USE CASE] <b>Expandability</b>
+    <br/>
+    [USE CASE 1] Vendor Expansion<br/>
+    The ability to integrate and expand with additional vendor packages for custom monitoring and configuration of varying physical and virtual hardware.
+    <br/>
+    [USE CASE 2] Resource Expansion<br/>
+    The capability to generate performance and predictive analysis to estimate when a monitored resource will be exhausted and allow for administrators to plan accordingly.
+    <br/>
+    [USE CASE] <b>Security</b>
+    <br/>
+    The ability to function in any configuration of endpoints with or without agents in the following ways.
+    <br/>
     <b>Agent</b>
     <br/>
-    [USE CASE 1] Detection of Potential Unauthorized Activity<br/>
-    The ability for agents to detect potentially unauthorized activity, software, or users by collection of host-based endpoint data and reporting back 
-    to the management server for further analysis.
+    [USE CASE 1] Detection of Potential Unauthorized Activity
     <br/>
-    [USE CASE 2] Remediation of Malicious Activity<br/>
-    The ability for the management server to instruct agents to perform remediation activities on the endpoints to cleanup detected malicious activity and 
-    report back through secured channels.
+    The ability for agents to detect potentially unauthorized activity, software, or users by collection of 
+    host-based endpoint data and reporting back to the management server for further analysis.
     <br/>
-    [USE CASE 3] Discovery<br/>
-    The capability to effectively browse, query, and export aggregated host-based endpoint data through a management dashboard query interface to enable 
-    a SOC analyst to discover adversaries in post-compromise scenarios.
+    [USE CASE 2] Remediation of Malicious Activity
+    <br/>
+    The ability for the management server to instruct agents to perform remediation activities on the endpoints to cleanup detected 
+    malicious activity and report back through secured channels.
     <br/>
     <b>Agentless</b>
     <br/>
-    [USE CASE 1] Detection of Potential Unauthorized Activity<br/>
-    The detection of potentially unauthorized activity, software, or users is enabled by remote collection of host-based endpoint data 
-    by the management server.
+    [USE CASE 1] Detection of Potential Unauthorized Activity
     <br/>
-    [USE CASE 2] Remediation of Malicious Activity<br/>
+    The detection of potentially unauthorized activity, software, or users is enabled by remote collection of host-based endpoint data by the management server.
+    <br/>
+    [USE CASE 2] Remediation of Malicious Activity
+    <br/>
     The ability to perform remediation activities on the endpoint remotely from the management server to cleanup detected malicious activity.
     <br/>
-    [USE CASE 3] Discovery<br/>
-    The capability to effectively browse, query, and export aggregated host-based endpoint data through a management dashboard query interface to enable 
-    a SOC analyst to discover adversaries in post-compromise scenarios.
   </section>
   
   <section title="Resources to be protected" id="resourcesprotected">

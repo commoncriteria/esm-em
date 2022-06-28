@@ -7,7 +7,7 @@
     <esrtitle>Enterprise Security Management (ESM) - Enterprise Management (EM)</esrtitle>
     <maintainer>National Information Assurance Partnership (NIAP)</maintainer>
     <identifier>00x</identifier>
-    <version>0.1x</version>
+    <version>0.2x</version>
     <status>draft</status>
     <issuedate></issuedate>
     <approver></approver>
@@ -129,7 +129,7 @@
           <li>Content updates</li></li></ul></li>
       <li> Vulnerability Assessment
         <ul>
-          <li> Import unknown hashes and set policy for them based on rules.
+          <li> Import current and future hashes and set policy for them based on rules.
             <ul><li>Ability to administratively override previous policies. </li></ul></li>
           <li> Scanning hosts for missing patches, configurations, security policies
             <ul><li> Scanning file executions and running files. </li></ul></li></ul></li>

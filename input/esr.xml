@@ -30,7 +30,7 @@
     <br/>
     <!-- Need to add diagram -->
     <!-- This is a test -->
-    <figure entity="images/suite_diagram.png"/>
+    <figure entity="images/suite_diagram.png" title="Enterprise Security Management Suite"/>
     <br/>
     The <b>Enterprise Security Management- Enterprise Management</b> module in the Enterprise Security Management Suite is a 
     centralized host system used to deploy software and manage systems across an enterprise. A service is deployed to 

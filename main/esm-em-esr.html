@@ -1,0 +1,204 @@
+<?xml-stylesheet type="text/xsl" href="../transforms/esr2html.xsl"><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:esr="http://common-criteria.rhcloud.com/ns/esr" xmlns:fn="http://www.w3.org/2005/xpath-functions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+					/*       { background-color: #FFFFFF; } */
+					body{
+					    margin-left:8%;
+					    margin-right:8%;
+					    foreground:black;
+					}
+					td{
+					    vertical-align:top;
+					}
+					div.section{
+					    text-align:center;
+					    margin-left:0%;
+					    margin-top:1em;
+					    margin-bottom:1em;
+					    border:2px solid #000000;
+					    width:100%;
+					    background-color:#FFFF99;
+					    font-family:arial, helvetica, sans-serif;
+					    font-weight:bold;
+					    box-shadow:2px 2px 2px #888888;
+					}
+					div.note{
+					    margin-left:10%;
+					    margin-right:10%;
+					    margin-top:1em;
+					}
+					
+					table.intro{
+					    table-layout:fixed;
+					    width:100%;
+					    margin-top:1em;
+					    border:1px solid black;
+					    box-shadow:2px 2px 2px #888888;
+					    text-align:center;
+					    vertical-align:middle;
+					    font-family:arial, helvetica, sans-serif;
+					}
+					ul,
+					ol{
+					    margin-bottom:0.5em;
+					    margin-top:0.5em;
+					}
+					li{
+					    margin-bottom:0.5em;
+					    margin-top:0.25em;
+					}</style></head><body><table class="intro"><tr><td style="width: 50%;"><img style="max-width:100%;" src="images/cclogo.png"></img></td><td style="vertical-align: middle;"><b>Common Criteria Evaluation and Validation Scheme</b><p></p>National Information
+					Assurance Partnership (NIAP) </td></tr></table><p></p><b>Title: </b><esrtitle xmlns="http://common-criteria.rhcloud.com/ns/esr">Enterprise Security Management (ESM) - Enterprise Management (EM)</esrtitle><p></p><b>Maintained by: </b><maintainer xmlns="http://common-criteria.rhcloud.com/ns/esr">National Information Assurance Partnership (NIAP)</maintainer><p></p><b>Unique Identifier: </b><identifier xmlns="http://common-criteria.rhcloud.com/ns/esr">00x</identifier><p></p><b>Version: </b><version xmlns="http://common-criteria.rhcloud.com/ns/esr">0.2x</version><p></p><b>Status: </b><status xmlns="http://common-criteria.rhcloud.com/ns/esr">draft</status><p></p><b>Date of issue: </b><issuedate xmlns="http://common-criteria.rhcloud.com/ns/esr"></issuedate><p></p><b>Approved by: </b><approver xmlns="http://common-criteria.rhcloud.com/ns/esr"></approver><p></p><b>Supersedes: </b><p></p><div class="section" id="purpose">Background and Purpose</div>
+    This document describes a core set of security requirements for Enterprise Security Management systems.  
+    These requirements cover basic security characteristics and behaviors for an ESM management server. 
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    <!--
+    The intent is that the remaining sections provide succinct statements that highlight the relevant aspects 
+    to be addressed by the Technical Community (TC) constructing the PP. Here, the authors provide a narrative 
+    that introduces the reader to the problem being solved, and presents key aspects that support or guide the TC, 
+    and may elaborate on subtleties not apparent in the “bulleted” high level statements.
+    -->
+    <b xmlns="http://common-criteria.rhcloud.com/ns/esr">Enterprise  Security Management</b> is a Security framework designed to control the deployment, configuration and 
+    monitoring of security policies on host agents across multiple platforms. It is a suite of product/product components 
+    used to provide centralized management of a set of IT assets within an organization.
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    <!-- Need to add diagram -->
+    <!-- This is a test -->
+    <div class="figure" id="figure-"><img id="" src="images/suite_diagram.png" width="" height=""></img><p></p><span class="ctr" data-myid="figure-" data-counter-type="ct-figure">Figure <span class="counter"></span></span>:
+      Enterprise Security Management Suite</div>
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    The <b xmlns="http://common-criteria.rhcloud.com/ns/esr">Enterprise Security Management- Enterprise Management</b> module in the Enterprise Security Management Suite is a 
+    centralized host system used to deploy software and manage systems across an enterprise. A service is deployed to 
+    host agents and allow for the discovery, data capture, reporting and remediation of IT policy and security issue.
+  <div class="section" id="usecases">Use Cases</div>
+    [USE CASE] <b xmlns="http://common-criteria.rhcloud.com/ns/esr">Monitoring and Management</b>
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    [USE CASE 1] Custom Events<br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    The ability to handle custom event management and monitoring across server and workstation endpoints.
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    [USE CASE 2] Standard Services and Alerts<br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    The ability to monitor multiple system services across endpoints, such as alerting for low disk space, 
+    high memory usage alerts, account creations, accounts being added or removed from groups, services stopping.
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    [USE CASE 3] Patching and Policies<br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    The ability to deploy patches, security, and business policies to server and workstation endpoints, in addition 
+    to deploying instructions to network configurable infrastructure devices.
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    [USE CASE 4] Discovery<br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    The capability to effectively browse, query, and export aggregated host-based endpoint data through a management 
+    dashboard query interface, in addition to automatically add newly discovered endpoints to a monitored database.
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    [USE CASE] <b xmlns="http://common-criteria.rhcloud.com/ns/esr">Expandability</b>
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    [USE CASE 1] Vendor Expansion<br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    The ability to integrate and expand with additional vendor packages for custom monitoring and configuration of varying physical and virtual hardware.
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    [USE CASE 2] Resource Expansion<br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    The capability to generate performance and predictive analysis to estimate when a monitored resource will be exhausted and allow for administrators to plan accordingly.
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    [USE CASE] <b xmlns="http://common-criteria.rhcloud.com/ns/esr">Security</b>
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    The ability to function in any configuration of endpoints with or without agents in the following ways.
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    <b xmlns="http://common-criteria.rhcloud.com/ns/esr">Agent</b>
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    [USE CASE 1] Detection of Potential Unauthorized Activity
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    The ability for agents to detect potentially unauthorized activity, software, or users by collection of 
+    host-based endpoint data and reporting back to the management server for further analysis.
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    [USE CASE 2] Remediation of Malicious Activity
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    The ability for the management server to instruct agents to perform remediation activities on the endpoints to cleanup detected 
+    malicious activity and report back through secured channels.
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    <b xmlns="http://common-criteria.rhcloud.com/ns/esr">Agentless</b>
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    [USE CASE 1] Detection of Potential Unauthorized Activity
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    The detection of potentially unauthorized activity, software, or users is enabled by remote collection of host-based endpoint data by the management server.
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    [USE CASE 2] Remediation of Malicious Activity
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+    The ability to perform remediation activities on the endpoint remotely from the management server to cleanup detected malicious activity.
+    <br xmlns="http://common-criteria.rhcloud.com/ns/esr"></br>
+  <div class="section" id="resourcesprotected">Resources to be protected</div>
+    <ul xmlns="http://common-criteria.rhcloud.com/ns/esr">
+      <li> Sensitive data stored by the ESM system. </li>
+      <li> Credentials for authentication to or from the ESM system. </li>
+      <li> Cryptographic key material to perform secure communications with host agents. </li>
+      <li> Sensitive data in transit to or from the ESM system. </li>
+    </ul>
+  <div class="section" id="attackeraccess">Attacker access</div> 
+    <ul xmlns="http://common-criteria.rhcloud.com/ns/esr">
+      <li> An attacker is assumed to attempt attacks from the following vantage points: 
+        <ul>
+          <li> The network across which the application engages in communication, both actively and passively. 
+            Including potentially IOT devices and BYOD. </li>
+          <li> The platform on which the application is installed, though as an unprivileged subject. </li>
+          <li> The endpoint (host agent) by planting crafted malicious artifacts on the Endpoint platform to be consumed by the ESM System. </li></ul></li>
+      <li> An attacker has an arbitrary amount of time to analyze the behavior of the application, its interaction with its host device or platform, 
+        and/or the data it transmits over the network. </li></ul>
+  <div class="section" id="requirements">Essential Security Requirements</div>
+    <ul xmlns="http://common-criteria.rhcloud.com/ns/esr">
+      <li> Patch Management
+        <ul>
+          <li> Scanning and updating patches is important enterprise security and requires management at all 
+            phases: QA, development, staging, production, etc. and maintaining strict policies to avoid any 
+            unexpected events. </li></ul></li>
+      <li> Policy Management
+        <ul>
+          <li> Exception creation and policy configuration. </li>
+          <li> View protected processes. </li>
+          <li> Agent and ESM settings
+            <ul> <li> Heartbeat Interval </li>
+              <li> Reporting Interval </li></ul>
+          <li>Content updates</li></li></ul></li>
+      <li> Vulnerability Assessment
+        <ul>
+          <li> Import current and future hashes and set policy for them based on rules.
+            <ul><li>Ability to administratively override previous policies. </li></ul></li>
+          <li> Scanning hosts for missing patches, configurations, security policies
+            <ul><li> Scanning file executions and running files. </li></ul></li></ul></li>
+      <li> Architecture
+        <ul>
+          <li> 	Resiliency
+            <ul>
+              <li> Failover </li>
+              <li> Loadbalanced </li>
+            </ul>
+          </li>
+          <li> Endpoint and Tenant Management
+            <ul><li> Role-based access control </li>
+              <li> Agent revocation </li></ul></li>
+          <li> Permission Segregation
+            <ul><li> Role based Tier model, protecting privileged accounts and resources from non-privileged. </li></ul></li>
+          <li> Compliance
+            <ul><li> Auditing capabilities </li></ul></li>
+          <li> Confidentiality
+            <ul><li> Encrypted communication between ESM host and clients </li></ul></li></ul></li>
+      <li> Risk Management
+        <ul>
+          <li> Behavior Detection/Threat Modeling </li>
+          <li> Network Virtualization </li>
+          <li> Ties into architecture with custom defense strategies based on the capabilities of the architecture </li>
+          <li> Zero Trust </li></ul></li>
+      <li> Reporting Capabilities
+        <ul>
+          <li> Log forwarding (SIEM, Syslog, Email, etc.) </li>
+          <li> Security events search criteria </li></ul></li>
+    </ul>
+  <div class="section" id="assumptions">Assumptions</div>
+    The following assumptions are made for the ESM product and its operational environment: 
+    <ul xmlns="http://common-criteria.rhcloud.com/ns/esr">
+      <li> Depending on configuration and capability, the product may or may not be: 
+        <ul><li> Bound to directory server to support multi-user login </li></ul></li>
+      <li> The ESM system is connected to a network. For purposes of sending/receiving endpoint agent data. 
+        Other entities on the network are not inherently trustable.</li>
+      <li> Administrators are not malicious in nature. </li>
+      <li> Users are not malicious in nature, though they may inadvertently or intentionally engage in risky behavior. </li>
+    </ul>
+  <div class="section" id="outsidescope">Outside the TOE's Scope</div>
+    <ul xmlns="http://common-criteria.rhcloud.com/ns/esr">
+      <li> Cloud ESM devices – this is not to include a VM running in the cloud running ESM, but ESM cloud specific tool like AWS Security Hub or Azure Sentinel </li>
+    </ul>
+  </body></html>
